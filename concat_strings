@@ -1,0 +1,14 @@
+Concatination of two strings  taking input from user.
+Code: 
+
+let firstN, LastN, finalN;
+firstN = prompt("Enter First Name: ");
+LastN = prompt("Enter Last Name: ");
+finalN = firstN + LastN;
+console.log(finalN);
+
+Output:
+
+Enter First Name: Harry
+Enter Last Name: Potter
+HarryPotter
