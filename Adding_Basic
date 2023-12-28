@@ -1,0 +1,16 @@
+Adding Two numbers in Java Script By taking Input from the user.
+
+let a,b,sum;
+a=parseInt(prompt());
+b=parseInt(prompt());
+sum= a+b;
+console.log(typeof(sum));
+console.log(sum);
+
+Output:
+
+node /tmp/xgCfYSlPBa.js
+6
+7
+number
+13
