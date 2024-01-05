@@ -1,0 +1,27 @@
+Remove the zero's in between in the list and add those 0 at last part of list.
+
+
+function isPositive(value) {
+    this.value = value;
+      if(value == 0)
+      {
+          c = c+1;
+      }
+      
+    return value != 0;
+}
+let c=0; 
+function func() {
+    let filtered = [99, 88, 65, 0, 23, 0 , 0, 99, 87]
+    .filter(isPositive);
+    
+    for(let i=0; i<c;i++)
+    {
+        filtered.push('0');
+       
+    }
+     console.log(filtered);
+}
+ 
+func();
+console.log(c);
